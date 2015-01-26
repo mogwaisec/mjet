@@ -15,7 +15,7 @@ mjet consists of the following parts:
 - A jar archive that is used to contact the insecure JMX service.
 
 
-### Installation (asuming you have the current git version of Metasploit)
+### Installation (with the github version of Metasploit)
 - Copy the "MBean" folder into the metasploit "data/java/metasploit" directory
 - Copy java_mlet_server.rb to modules/exploits/multi/misc/
 
