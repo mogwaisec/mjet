@@ -7,7 +7,7 @@ and can be used to execute arbitrary Metasploit payloads on the target system.
 
 Mjet was originally planned to be a complete attack toolkit, however we noticed that the Metasploit Github repository contains 
 a pull request which will provide basic Java RMI/serialization support in native ruby. This is awesome and removes the Java 
-dependency. So we stopped developing this tool  and focus on Metasploit instead.
+dependency. So we stopped developing this tool and create metasploit modules in the near future.
 
 mjet consists of the following parts:
 - A metasploit module which emulates a "mlet Server". This is basically a web server which hosts a html file that contains a mlet tag
