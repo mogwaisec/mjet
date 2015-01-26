@@ -16,8 +16,8 @@ mjet consists of the following parts:
 
 
 ### Installation (with the github version of Metasploit)
-- Copy the "MBean" folder into the metasploit "data/java/metasploit" directory
-- Copy java_mlet_server.rb to modules/exploits/multi/misc/
+- Copy the "MBean" folder to "data/java/metasploit"
+- Copy java_mlet_server.rb to "modules/exploits/multi/misc/"
 
 ### Usage 
 
