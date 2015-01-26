@@ -1,5 +1,5 @@
 # mjet
-Mogwai Java Management Extensions (JMX) Exploitation Toolkit
+Mogwai Security Java Management Extensions (JMX) Exploitation Toolkit
 
 mjet is a tool that can be used to protect insecure configured JMX services. It is based on
 the blog post "Exploiting JMX-RMI" from Braden Thomas/Accuvant "http://www.accuvant.com/blog/exploiting-jmx-rmi" 
